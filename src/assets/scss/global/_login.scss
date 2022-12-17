@@ -1,0 +1,50 @@
+.login_screen .row{
+    justify-content: center;
+    align-items: stretch;
+    .logo{
+        padding: 30px;
+        height: 84px;
+        img{
+            width: 20%;
+        }
+    }
+    .footer{
+        padding: 30px;
+        height: 84px;
+        color: var(--text_color);
+    }
+    .form{
+        padding: 40px;
+        min-height: calc(100vh - 168px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .title{
+            padding-bottom: 25px;
+            p{
+                color: rgb(141, 141, 141);
+            }
+        }
+        label{
+            font-weight: 500;
+        }
+        .form-check-label{
+            cursor: pointer;
+        }
+        #forget a,
+        .sign a{
+            color: var(--main_color);
+            font-weight: 500;
+        }
+        .btns{
+            #sign{
+                background-color: var(--main_color);
+                border-color: var(--main_color);
+                &:hover{
+                    border-color: var(--hover_color);
+                    background-color: var(--hover_color);
+                }
+            }
+        }
+    }
+}

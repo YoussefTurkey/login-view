@@ -1,0 +1,56 @@
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .screen img {
+        width: 102.2%;
+    }
+    .login_screen .row .form {
+        min-height: calc(100vh - 227px);
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .screen img {
+        width: 102.6%;
+        height: 743px;
+    }
+    .login_screen .row .form {
+        padding: 0px; 
+        min-height: calc(100vh - 335px);
+    }
+    .login_screen .row .footer {
+        padding: 15px 30px;
+        height: fit-content;
+    }
+}
+@media (max-width: 991px) and (min-width: 854px) {
+    .screen img{
+        width: 103.5%;
+        height: 744px;
+    }
+    .login_screen .row .logo,
+    .login_screen .row .footer {
+        padding: 10px 30px;
+        height: fit-content;
+    }
+    .login_screen .row .form {
+        padding: 0;
+        min-height: fit-content;
+    }
+}
+@media (max-width: 853px) and (min-width: 768px) {
+    .screen img {
+        width: 104%;
+        height: 868px;
+    }
+    .login_screen .row .logo,
+    .login_screen .row .footer {
+        padding: 10px 30px;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 767px) {
+    .screen img {
+        display: none;
+    }
+    .login_screen .row .form {
+        min-height: calc(100% - 186px);
+    }
+}

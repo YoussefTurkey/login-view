@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+    background-color: var(--bg_color) !important;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
