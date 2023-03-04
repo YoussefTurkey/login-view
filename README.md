@@ -10,7 +10,7 @@ It's signle login page was built using (vue.js) as framework
  - BoxIcons
  - Googlefonts
 
-**[click here to preview the website](https://qorra.vercel.app/)**
+**[click here to preview the website](https://login-view.vercel.app/)**
 
 ### UI Preview:
 ![Login View](./src/assets/images/preview.png)
